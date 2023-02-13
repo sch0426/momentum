@@ -8,6 +8,7 @@ ul {
   scrollbar-width: none;
   -ms-overflow-style: none;
 }
+
 ul::-webkit-scrollbar {
   display: none;
 }
@@ -97,7 +98,7 @@ ul::-webkit-scrollbar {
 
 #todo-list li {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #todo-list button {
